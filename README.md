@@ -22,9 +22,3 @@ Giuseppe A. Paleologo, *The Elements of Quantitative Investing* (Wiley Finance, 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-
-=======
-# elements-of-quantitative-investing
-Study notes of the Elements of Quantitative Investing
->>>>>>> origin/main
