@@ -1,0 +1,1 @@
+page 29, equation 2.5, the right side on the first inequality should be $1/\left(2\sqrt{2\pi}\right)$
