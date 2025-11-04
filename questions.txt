@@ -1,0 +1,26 @@
+Chapter 6
+
+Q1: 
+    ### Factor covariance matrix shrinkage
+    
+    The estimate $var(\hat{f}_t)$ is biased:
+    
+    $$var(\hat{f}_t) = \Omega_f + (B^T\Omega_{\epsilon}^{-1}B)^{-1}$$
+    
+    **WHY?????**
+
+Q2: 
+    ### Correcting for autocorrelation in Factor Returns
+    
+    Factor returns are slightly autocorrelated in the short term, so we add in the autocovariance into the cov matrix estimate:
+    
+    $$[C_l]_{i,j} = cov(f_{t,i}, f_{t-l, j})$$
+    $$\hat{\Omega}_f = C_0 + \frac{1}{2} \sum^{l_{max}}_{l=1}(C_l + C_l^T)$$
+    
+    For a more advanced adjustment:
+    
+    $$\hat{\Omega}_f = C_0 + \sum^{l_{max}}_{l=1}\left(1 - \frac{l}{1+l_{max}}\right)(C_l + C_l^T)$$
+    
+    The intuition is: adjust the covariance matrix upward, if there is a positive autocorrelation, and vice versa.
+    
+    **WHY???**
