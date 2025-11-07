@@ -6,3 +6,4 @@ page 95, 5.1.1, loss function should be: $$\bar{L} = 1/T\sum_{t=1}^TL(\tilde{\si
 page 100, exercise 5.1, H=rr^T makes the loss function -infty
 page 104, exponentially weighted covariance matrix: $$\hat{\Omega}_{r,t}=\frac{1-e^{-1/\tau}}{1-e^{-T/\tau}}\sum^T_{s=1}e^{-s/\tau}r_{t-s}r_{t-s}^T$$
 page 107, the condition of equal wshould be $\Omega_r \propto \hat{\Omega}_r$
+page 126, the lienar approximation of short-term idio update: $e^{\hat{x}_t/2} = \kappa_0 \sum^{\infty}_{s=0} e^{-s/\tau_0} \sqrt{\frac{\sum_i a_{i,t-s}(\epsilon_{i,t-s} / \hat{\sigma}_{i,t-s})^2}{\sum_i a_{i,t-s}}}$
