@@ -8,3 +8,11 @@ page 104, exponentially weighted covariance matrix: $$\hat{\Omega}_{r,t}=\frac{1
 page 107, the condition of equal wshould be $\Omega_r \propto \hat{\Omega}_r$
 page 126, the lienar approximation of short-term idio update: $e^{\hat{x}_t/2} = \kappa_0 \sum^{\infty}_{s=0} e^{-s/\tau_0} \sqrt{\frac{\sum_i a_{i,t-s}(\epsilon_{i,t-s} / \hat{\sigma}_{i,t-s})^2}{\sum_i a_{i,t-s}}}$
 page 138, at bottom, should we check the correlation across $\tilde{f}_t^{(1)},\dots,\tilde{f}_t^{(q)}$? Also, the covariance matrix should be $diag(cov(g_t), cov(\tilde{f}_t^{(1)}), \ldots, cov(\tilde{f}_t^{(q)}))$?
+page 153, formula 7.16 - 7.19 seems to be off, 
+    \begin{align}
+        \hat{B} & = U_m(S_m - \hat{\sigma}I_m)^{1/2} \\
+        \hat{\sigma}^2 & = \bar{\lambda}
+        \hat{B} & = U_m \\
+        \Sigma_f & = S_m - \bar{\lambda}I_m \\
+        \Sigma_{\epsilon} & = \bar{\lambda}I_n 
+    \end{align}
