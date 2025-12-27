@@ -19,4 +19,4 @@ page 153, formula 7.16 - 7.19 seems to be off,
 page 181, exercise 7.1, the only if direction "B and C must be full-rank with rank=m"??
 page 181, exercise 7.2, not sure how to prove uniqueness and (7.10)'s constraint may not be binding
     (7.7) solves for the first eigenvector (largest eigenvalue) and (7.10) solves for the second eigenvector (second largest eigenvalue). It is possible that a covariance matrix has repeated eigenvalues, and infinitely many eigenvectors, so I don't know how to prove the solution (eigenvector) uniqueness. However, the constraint being binding indicates that the lagrangian multiplier $\lambda$ must be positive, which is also the eigenvalue. Again, since a covariance matrix must be PSD, there is at least one positive eigenvalue, so (7.7) must be binding, yet the second eigenvalue may be zero.
-
+page 184, exercise 7.10, shouldn't the gradient be: \nabla_vf &= 2Xv - 2(v^TXv)v = 2(1 - vv^T)Xv ??
